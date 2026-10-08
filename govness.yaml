@@ -1,0 +1,18 @@
+# Fictional demo block: see README.md.
+schema_version: 1
+id: "ua-poltava-digital-office.regional-eservices-connector"
+name: "Regional e-services API connector"
+type: "connector"
+version: "1.5.2"
+summary: "OpenAPI client for the regional e-services platform: applications, statuses and appointment booking."
+description: "A typed client and OpenAPI description for the regional platform, so assistants can check an application's status or book an appointment for a resident."
+publisher:
+  environment: "ua-poltava-digital-office"
+  body: "Poltava Regional Digital Services Office"
+languages: ["uk", "en"]
+license: "EUPL-1.2"
+interfaces:
+  protocol: "openapi"
+links:
+  repo: "https://github.com/govness-demo/regional-eservices-connector"
+domains: ["digital-services", "social-protection"]
